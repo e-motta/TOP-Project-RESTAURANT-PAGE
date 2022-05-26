@@ -86,7 +86,7 @@
 }
 
 .home, .contact, .menu {
-    padding: 0 200px;
+    padding: 0 200px 50px 200px;
 }
 
 .home {
