@@ -1,0 +1,35 @@
+{
+  "name": "top-project-restaurant-page",
+  "version": "1.0.0",
+  "description": "A simple restaurante page rendered using JavaScript.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "webpack --watch",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/e-motta/TOP-Project-RESTAURANT-PAGE.git"
+  },
+  "keywords": [
+    "TOP",
+    "Restaurant-Page",
+    "TOP",
+    "The-Odin-Project"
+  ],
+  "author": "Eduardo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/e-motta/TOP-Project-RESTAURANT-PAGE/issues"
+  },
+  "homepage": "https://github.com/e-motta/TOP-Project-RESTAURANT-PAGE#readme",
+  "devDependencies": {
+    "webpack": "^5.72.1",
+    "webpack-cli": "^4.9.2"
+  },
+  "dependencies": {
+    "css-loader": "^6.7.1",
+    "style-loader": "^3.3.1"
+  }
+}

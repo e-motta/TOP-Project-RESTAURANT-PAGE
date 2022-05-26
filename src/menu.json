@@ -1,0 +1,29 @@
+{
+    "appetizers": {
+        "title": "Appetizers",
+        "meals":
+        [
+            "Choice Duck & Liver Parfait with Red Onion Jam",
+            "Prawn & Avocado Cocktail",
+            "Artisan Breads & Dipping Oils Platter"
+        ]
+    },
+    "main": {
+        "title": "Main",
+        "meals":
+        [
+            "Fillet steak served with mushroom sauce and potatoes",
+            "Pan Fried Tenderloin of Pork in a Mustard Brandy Sauce",
+            "Braised lamb Shank in Rosemary & red wine & Rustic Mash"
+        ]
+    },
+    "desserts": {
+        "title": "Desserts",
+        "meals":
+        [
+            "Velvety Chocolate Pots",
+            "Crème Brûlée",
+            "Tarte au Citron"
+        ]
+    }
+}
