@@ -101,10 +101,12 @@
     color: var(--main-color);
     margin: 36px 0 36px 0;
     padding: 18px 18px;
-    width: 435px;
+    width: 415px;
     font-size: 4.5em;
     text-decoration: underline;
     cursor: default;
+    font-weight: 900;
+    font-variant: small-caps;
 }
 
 .centered {
