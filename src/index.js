@@ -34,6 +34,7 @@ const navigation = (() => {
         Footer.previousSibling.remove()
         page.content.insertBefore(pages[nextId], Footer)
     
+        router.push(nextId)
     }
 
     const addEventListenersToBtns = () => {
@@ -54,6 +55,24 @@ const navigation = (() => {
     }
 
     return { addEventListenersToBtns }
+})();
+
+const router = (() => {
+    const routes = {
+        home: '/',
+        contact: '/contact',
+        menu: '/menu'
+    }
+
+    const push = (page) => {
+        window.history.pushState(
+            {},
+            routes[page],
+            window.location.origin + routes[page]
+            )
+    }
+
+    return { push }
 })();
 
 page.setUpInitialState()

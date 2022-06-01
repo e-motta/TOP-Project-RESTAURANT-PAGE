@@ -5,9 +5,13 @@ module.exports = {
     output: {
         filename: 'main.js',
         path: path.resolve(__dirname, 'dist'),
+        publicPath: "/",
     },
     mode: 'development',
     devtool: 'inline-source-map',
+    devServer: {
+        historyApiFallback: true,
+    },
     module: {
         rules: [
             {
